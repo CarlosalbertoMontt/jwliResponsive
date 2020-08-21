@@ -1,0 +1,378 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: "Arial";
+}
+
+header{
+  height: 80px;
+  width: 100%;
+}
+.headerList{
+  list-style: none;
+  float: left;
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
+header li{
+  display: inline-block;
+  margin-left: 4.0%;
+  margin-right: 4.%;
+}
+header a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.applyButton{
+  background-color: black;
+  padding: 10px;
+}
+.applyButton a{
+  color: white;
+}
+.mobileHamburger{
+  display: none;
+}
+
+.emailSection{
+  height: 423px;
+  width: 100%;
+  background-color: #F1F3F5;
+}
+.emailSub{
+  width: 50%;
+  height: 381px;
+  float: left;
+  text-align: center;
+  margin-top: 4%;
+}
+.emailSub h1{
+  font-size: 2em
+}
+
+.ladyImage{
+  width: 50%;
+  height: 400px;
+  float: left;
+  text-align: center;
+}
+
+.missionStatement{
+  width: 100%;
+  height: 300px;
+  float:left;
+  margin-top: 1%;
+
+}
+
+.missionStatement h2{
+  text-align: center;
+  font-size: 2em;
+}
+
+.how {
+  width: 50%;
+  float: left;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.how strong{
+  border-top: 5px solid lightpink;
+}
+
+.founded{
+  text-align: center;
+  color: lightgrey;
+  font-size: 1em;
+}
+
+.ourHistory{
+  height: auto;
+  width: 100%;
+  background-color: lightgrey;
+  float: left;
+}
+
+.leftSide{
+  width: 50%;
+  height: auto;
+  float: left;
+  font-size: 1.5em;
+}
+
+.rightSide{
+  width: 50%;
+  height: auto;
+  float: left;
+  text-align: center;
+}
+
+.rightSide img{
+  margin-top: 10%;
+}
+
+.whoWeAre{
+  height: 1000px;
+  width: 100%;
+  float: left;
+}
+
+.whoWeAre h3{
+  text-align: center;
+  width: 100%;
+}
+
+.founderSection{
+  border: 2px solid lightgrey;
+  padding: 30px;
+  height: 500px;
+  margin-bottom:
+}
+
+.founderSection img{
+  width: 25%;
+  height: 400px;
+  float: left;
+}
+
+.founderSection h4{
+  font-size: 2em;
+}
+
+.founderSection p{
+  width: 75%;
+  height: auto;
+  float: left;
+  font-size: 1.5em;
+}
+
+.fishFamilySection{
+  width: 50%;
+  float: left;
+  font-size: 1.5em
+}
+
+.fishFamilySection p{
+  margin-top: 8%;
+  color: grey;
+}
+
+.simmonsSection{
+  width: 50%;
+  float: left;
+  font-size: 1.5em
+}
+
+.simmonsSection p{
+  color: grey;
+}
+
+.newsletter{
+  height: 100px;
+  width: 100%;
+  background-color: lightgrey;
+  float: left;
+}
+
+.newsletter h5{
+  font-size: 1.5em;
+  color: white;
+  width: 45%;
+  float: left;
+}
+
+.newsletter input{
+  margin-top: 20px;
+  margin-right: 10px;
+  height: 50px;
+  width: 25%;
+  float: left;
+}
+
+footer{
+  height:330px;
+  width: 100%;
+  background-color: darkgrey;
+  float: left;
+  color: white;
+}
+.topFooter{
+  border-bottom: 2px solid white;
+  float: left;
+  width: 100%;
+}
+
+.topFooter h5{
+width: 60%;
+height: 50px;
+float: left;
+}
+
+.topFooter ul{
+  list-style: none;
+  width: 40%;
+  float: left;
+}
+.topFooter li{
+  display: inline-block;
+  padding-left: 10%;
+}
+
+.topFooter a{
+  text-decoration: none;
+  color: white;
+}
+.bottomFooter{
+height: 200px;
+width: 100%;
+float: left;
+}
+
+.list{
+  list-style: none;
+  width: 20%;
+  float: left;
+}
+.list li{
+  margin-top: 5%;
+}
+.list a{
+  text-decoration: none;
+  color: white;
+}
+.firstItem{
+  margin-top: 0%;
+}
+.firstItem a{
+  font-weight: bold;
+}
+.inlineList{
+  width: 40%;
+  list-style: none;
+  float: left;
+}
+.inlineList li{
+  display: inline-block;
+  margin-left: 10%
+}
+.inlineList a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+@media (min-width:425px) and (max-width:767px) {
+  .headerList li{
+    display: none;
+  }
+  .headerList .mobileHamburger{
+    display: block;
+    color: black;
+    float: left;
+  }
+  .emailSub{
+    width: 100%
+  }
+  .ladyImage{
+    display: none;
+  }
+  .missionStatement h2{
+    font-size: 1em
+  }
+  .missionStatement .how{
+    width: 100%;
+    font-size: .77em
+  }
+  .missionStatement .founded{
+    font-size: .77em;
+  }
+  .ourHistory .leftSide{
+    width: 100%;
+    float: left;
+    clear: right;
+    text-align: center;
+  }
+  .ourHistory .leftSide p{
+    display: none;
+  }
+  .ourHistory .rightSide{
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+  .whoWeAre{
+    height: 700px;
+  }
+  .founderSection p{
+    display: none;
+  }
+  .founderSection .imgSide{
+    width: 100%;
+    float: left;
+  }
+  .founderSection img{
+    width: 100%;
+    height: 300px;
+  }
+  .fishFamilySection p, .simmonsSection p{
+    display: none;
+  }
+  .list li{
+    display:none;
+  }
+.list .mobileHamburger{
+  display: block;
+  border:2px solid white;
+  padding: 10px;
+}
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+
+  .missionStatement h2{
+    font-size: 1.5em
+  }
+  .missionStatement .how{
+    width: 50%;
+    font-size: 1.2em
+  }
+  .missionStatement .founded{
+    font-size: 1em;
+  }
+  .ourHistory .leftSide{
+    width: 100%;
+    float: left;
+    clear: right;
+    text-align: center;
+  }
+  .ourHistory .leftSide p{
+    display: none;
+  }
+  .ourHistory .rightSide{
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+  .ourHistory img{
+    margin-top: 0px;
+  }
+  .whoWeAre{
+    height: 660px;
+  }
+  .founderSection p{
+    font-size: 1.1em;
+    margin-top: 0px;
+  }
+  .fishFamilySection p, .simmonsSection p{
+    display: none;
+  }
+}
+@media (min-width:1024px) and (max-width:1357px) {
+  .founderSection p{
+    font-size: 1.3em;
+    margin-top: 0px;
+  }
